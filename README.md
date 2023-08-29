@@ -1,6 +1,6 @@
 # Ornikar QA Engineer Technical Test - Fanfan
 
-This repository contains an automated UI testing framework developed using Behave and Allure for generating test reports. The framework is designed to test ornikar insurance website.
+This repository contains an automated UI and API testing framework developed using Behave and Allure for generating test reports. The framework is designed to test ornikar insurance website and a dummy API.
 
 ## Getting Started
 
@@ -38,7 +38,7 @@ These instructions will help you set up and run the automated tests on your loca
    Install the required Python packages:
 
    ```bash
-   pip install selenium behave allure-behave
+   pip install selenium behave allure-behave requests
    ```
 
 4. **Install OpenJDK (for Allure reports):**
